@@ -1,0 +1,81 @@
+/* styling for Pen, not related to box-sizing or layout */
+
+body {
+  font-family: sans-serif;
+  background-color:#eee;
+}
+
+.navbar-light .navbar-brand {
+  color: white;
+}
+
+.navbar {
+  background-color: white;
+  width: 100%;
+  padding: 0;
+  z-index: 1;
+}
+
+.navbar-brand {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+  font-weight: bolder;
+  background-color: rgb(20, 150, 150);
+  padding: 10px;
+  margin-left: 5%;
+}
+
+.navbar-collapse {
+  position: absolute;
+  right: 5%;
+}
+
+.navbar-toggler{
+  border-color: white;
+  z-index: 2;
+}
+
+h1, h2, h3{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(20, 150, 150);
+}
+
+h1{
+  font-size: 24px;
+  font-weight: bold;
+  text-align:left;
+}
+
+.sel_img {
+  border:  rgb(20, 150, 150) 2px solid;
+}
+
+@media (max-width: 767.98px) {
+  .navbar {
+    background-color: rgb(20, 150, 150);
+    width: 100%;
+    padding: 0;
+  }
+
+  .navbar-collapse {
+    background-color: white;
+    width: 100%;
+    top: 70px;
+    right: 0;
+    padding: 5px;
+    color: white;
+  }
+  .nav-item a{
+    position: relative;
+    left: 20px;
+    width: 98%;
+  }
+  .dropdown-menu{
+    border-color: white;
+  }
+
+  body {
+    font-family: sans-serif;
+    background-color:white;
+  }
+}
